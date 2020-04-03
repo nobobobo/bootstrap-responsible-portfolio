@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+    background-image: url("../Assets/Images/background-cement-concrete-paint-242236.jpg");
+   }
+
+.bg-secondary{
+    opacity: 60%;
+}
+.navbar-brand{
+    font-family: serif;
+    font-size: 28px;
+}
+
+.text-secondary{
+    opacity: 60%;
+}
+#page-content {
+  flex: 1 0 auto;
+}
+
+.box {
+    background-color: white;
+    width: 700px;
+}
+
+.box h1{
+    font-size: 28px;
+    font-family: serif;
+}
+
+footer{
+    flex-shrink:0;
+}
+
+p{
+    font-size:18px;
+}
