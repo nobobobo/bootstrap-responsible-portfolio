@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width-device-width, initial-scale=1">
-    <title> Noboru Hayashi </title>
+    <title> Noboru Hayashi - Home</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -13,66 +13,75 @@
 
 <body class="d-flex flex-column">
 
-        <div class="md-navbar">
-                <nav class="navbar navbar-expand navbar-light bg-light m-0 py-0 pl-4">
-                    <div class="container mx-3">
-                        <a class="navbar-brand font-weight-bold text-white bg-secondary p-4" href="index.html">Noboru
-                            Hayashi</a>
-                    </div>
-        
-                    <div id="md-navbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                        </ul>
-                    </div>
-                </nav>
+    <!-- navbar for md or above browser size-->
+    <div class="md-navbar">
+        <nav class="navbar navbar-expand navbar-light bg-light m-0 py-0 pl-4">
+            <div class="container mx-3">
+                <a class="navbar-brand font-weight-bold text-white bg-secondary p-4" href="index.html">Noboru
+                    Hayashi</a>
             </div>
-        
-            <div class="sm-navbar bg-light">
-                <nav class="navbar navbar-expand navbar-light bg-secondary m-0 py-0 pl-4">
-                    <a class="navbar-brand font-weight-bold text-white p-4 mx-auto " href="index.html">Noboru
-                        Hayashi</a>
-        
-                </nav>
-                <nav class="navbar navbar-expand navbar-light m-0 py-0 pl-4">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                    </ul>
-                </nav>
-        
+
+            <div id="md-navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                </ul>
             </div>
+        </nav>
+    </div>
+
+    <!-- navbar fro sm (mobile) browser size -->
+    <div class="sm-navbar bg-light">
+        <nav class="navbar navbar-expand navbar-light bg-secondary m-0 py-0 pl-4">
+            <a class="navbar-brand font-weight-bold text-white p-4 mx-auto " href="index.html">Noboru
+                Hayashi</a>
+
+        </nav>
+        <nav class="navbar navbar-expand navbar-light m-0 py-0 pl-4">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+            </ul>
+        </nav>
+
+    </div>
 
     <br>
 
+    <!--content section-->
     <section id="page-content">
+        <!--create a container holds a box that store header(about me), profile pictures, and bio -->
         <div class="container mx-md-4">
             <figure class="p-4 bg-light box">
-                <h1 class="text-secondary">About Me</h1>
+                <header>
+                    <h1 class="text-secondary">About Me</h1>
+                </header>
                 <hr class="my-4">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 text-center">
-                        <img class="rounded mx-auto" src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/69500114_2820382441308512_3438409555703234560_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=QNNt8BzC0IAAX-ouFZh&_nc_ht=scontent-sea1-1.xx&oh=d399338f852a5027aab9ce354625c5ee&oe=5EAA2A62"
+                        <img class="rounded mx-auto"
+                            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/69500114_2820382441308512_3438409555703234560_n.jpg?_nc_cat=101&_nc_sid=09cbfe&_nc_ohc=QNNt8BzC0IAAX-ouFZh&_nc_ht=scontent-sea1-1.xx&oh=d399338f852a5027aab9ce354625c5ee&oe=5EAA2A62"
                             alt="Profile Picture" style="width:200px">
                     </div>
                     <div class="col-sm-12 col-md-8">
-                        <p class="text-muted"> Hello! I am Noboru Hayashi (Nobo), and I'm Seattle-baed Cloud Support Engineer at Amazon Web
+                        <p class="text-muted"> Hello! I am Noboru Hayashi (Nobo), and I'm Seattle-baed Cloud Support
+                            Engineer at Amazon Web
                             Services.
                         </p>
-                        <p class="text-muted">Since I'm originally from Tokyo and lived 7 years in Shanghai, I speak couple languages:
+                        <p class="text-muted">Since I'm originally from Tokyo and lived 7 years in Shanghai, I speak
+                            couple languages:
                             English, Japanese and Mandarin. Also I speak some computing languages: Java, Python and SQL.
                         </p>
                     </div>
@@ -80,7 +89,8 @@
 
                 <div class="row">
                     <div class="col-sm-12">
-                        <p class="text-muted"> I'm currently enrolled in University of Washington Coding Bootcamp, learning new skills such as HTML, CSS and JavaScript.</p>
+                        <p class="text-muted"> I'm currently enrolled in University of Washington Coding Bootcamp,
+                            learning new skills such as HTML, CSS and JavaScript.</p>
 
 
                     </div>
@@ -91,9 +101,11 @@
 
     </section>
 
-    <footer class="sticky-bottom py-4 bg-secondary text-center">
-        <small class="text-white">Copyright &copy; Noboru Hayashi</small>
-
+    <!--sticky footer-->
+    <footer class="footer mt-auto py-3 bg-secondary text-center">
+        <div class="container">
+            <small class="text-white">Copyright &copy; Noboru Hayashi</small>
+        </div>
     </footer>
 </body>
 
