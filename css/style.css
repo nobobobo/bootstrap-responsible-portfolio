@@ -13,6 +13,7 @@ body {
 .navbar-brand{
     font-family: serif;
     font-size: 28px;
+    color: white;
 }
 
 .text-secondary{
@@ -30,6 +31,7 @@ body {
 .box h1{
     font-size: 28px;
     font-family: serif;
+    color: white;
 }
 
 footer{
@@ -38,4 +40,36 @@ footer{
 
 p{
     font-size:18px;
+}
+
+.carousel-caption{
+    max-width: 100%;
+    width:100%;
+    left: 0;
+}
+
+h2{
+    font-family: serif;
+    font-size: 24px;
+    color: white;
+}
+
+#sm-navbar{
+    display:none;
+}
+
+@media screen and (max-width:767px) {
+    .box{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #md-navbar{
+        display: none;
+    }
+
+    #sm-navbar{
+        display: block;
+    }
+
 }
