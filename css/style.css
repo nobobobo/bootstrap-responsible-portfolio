@@ -25,23 +25,38 @@ body {
 
 .box {
     background-color: white;
-    width: 700px;
+    box-sizing: border-box;
+    width: 768px;
 }
 
+
 .box h1{
+    
     font-size: 28px;
     font-family: serif;
     color: white;
 }
 
+
 footer{
     flex-shrink:0;
 }
+
+
 
 p{
     font-size:18px;
 }
 
+
+
+.form-control {
+    opacity: 50%;
+}
+
+#profile img {
+    width: 200px;
+}
 .carousel-caption{
     max-width: 100%;
     width:100%;
@@ -54,7 +69,11 @@ h2{
     color: white;
 }
 
-#sm-navbar{
+.sm-navbar{
+    display:block;
+}
+
+.sm-navbar{
     display:none;
 }
 
@@ -64,12 +83,13 @@ h2{
         max-width: 100%;
     }
 
-    #md-navbar{
+    .md-navbar{
         display: none;
     }
 
-    #sm-navbar{
+    .sm-navbar{
         display: block;
     }
+
 
 }
