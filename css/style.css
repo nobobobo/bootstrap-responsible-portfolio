@@ -26,7 +26,7 @@ body {
 .box {
     background-color: white;
     box-sizing: border-box;
-    width: 768px;
+    width: 690px;
 }
 
 
@@ -42,10 +42,13 @@ footer{
     flex-shrink:0;
 }
 
-
+.card:hover{
+    opacity: 85%;
+}
 
 p{
-    font-size:18px;
+    font-size:17px;
+    line-height: 1.5;
 }
 
 
